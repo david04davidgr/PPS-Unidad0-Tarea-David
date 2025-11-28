@@ -1,7 +1,8 @@
 # -------------------------------------------------------------
 # CONFIGURACIÓN GENERAL DEL SITIO
 # -------------------------------------------------------------
-site_name: Actividad Unidad 0 - DevSecOps Básico y Automatización de la Documentación  # Define el título que aparecerá en la barra de navegación y en la etiqueta <title> del navegador.
+site_name: PPS-Unidad0-Tarea-PPS  # Define el título que aparecerá en la barra de navegación y en la etiqueta <title> del navegador.
+site_description: Actividad Unidad 0 - DevSecOps Básico y Automatización de la Documentación
 
 # -------------------------------------------------------------
 # ESTRUCTURA DE NAVEGACIÓN (MENÚ)
