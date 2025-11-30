@@ -1,17 +1,29 @@
-# Calculadora Python
+# Actividad Unidad 0 - DevSecOps Básico y Automatización de la Documentación
 
-Bienvenido a la documentación de la Calculadora Python.
+**Índice**
+- [Objetivos](#objetivos)
+- [Desarrollo](#desarrollo)
+- [Resultados y conclusiones](#resultadosConclusiones)
 
-## Descripción
+## Objetivos
+<div id='objetivos' />
+Para la realización de esta tarea se tiene en cuenta el cumplimiento de los siguientes objetivos:
 
-Esta calculadora tiene una interfaz gráfica usando Tkinter.
+- Lenguaje de marcas Markdown
+- Sistemas de control de versiones: Git
+- Creación y administración de contenedores: Docker.  
+- Ciclos de desarrollo software seguros: SecDevOps.  
+- Documentación.  
 
-## Uso
+## Desarrollo
+<div id='desarrollo'>
+La actividad se ha desarrollado en las siguientes fases:
 
-Ejecuta el script `calculator/gui.py` para iniciar la calculadora.
+1. **[Git y Control de Versiones](./git.md)**
+2. **[Automatización con GitHub Actions](./gitActions.md)**
+3. **[Despliegue de la rama con GitHub Pages](./gitPages.md)**
+3. **[Contenedores Docker](./docker.md)**
 
-## Requisitos
-
-- Python 3.x
-- Tkinter
-[![Licencia: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+## Resultados y conclusiones
+<div id='resultadosConclusiones'>
+Los resultados y conclusiones tras finalizar la tarea se pueden ver aqui: [Resultados y conclusiones](./conclusiones.md)
