@@ -16,7 +16,7 @@ Se utilizó **Git** como sistema de control de versiones distribuido y **GitHub*
 
 **Creamos el nuevo repositorio** desde la plataforma de `GitHub`, añadimos el nombre del repositorio, la descripción del mismo y activamos la creación del README
 
-![Captura 1](captura1.png)
+![Captura 1](./evidenciasTarea/Apartado1GIT/Captura1.png)
 
 **2. Configuración de git y clonación del proyecto**
 
@@ -40,13 +40,13 @@ una vez configurado el usuario, pasamos a clonar el repositorio en nuestro entor
 git clone enlaceRepositorio
 ````
 
-![Captura 3](../evidenciasTarea/Apartado1GIT/Captura3.png)
+![Captura 3](./evidenciasTarea/Apartado1GIT/Captura3.png)
 
 **3. Accedemos al directorio del repositorio en local**
 
 Una vez clonado el repositorio accedemos al mismo en el directorio local donde se ha almacenado, y podremos comprobar que se ha clonado correctamente
 
-![Captura 4](../evidenciasTarea/Apartado1GIT/Captura4.png)
+![Captura 4](./evidenciasTarea/Apartado1GIT/Captura4.png)
 
 **4. Comenzamos a crear el arbol de directorios y archivos requeridos**
 
@@ -69,27 +69,27 @@ PPS-Unidad0-Tarea-Tu_nombre/
         └── CreacionDocumentacion.yml  
 ```
 
-![Captura 5](../evidenciasTarea/Apartado1GIT/Captura5.png)
+![Captura 5](./evidenciasTarea/Apartado1GIT/Captura5.png)
 
-![Captura 6](../evidenciasTarea/Apartado1GIT/Captura6.png)
+![Captura 6](./evidenciasTarea/Apartado1GIT/Captura6.png)
 
-![Captura 6.2](../evidenciasTarea/Apartado1GIT/Captura6.2.png)
+![Captura 6.2](./evidenciasTarea/Apartado1GIT/Captura6.2.png)
 
-![Captura 6.3](../evidenciasTarea/Apartado1GIT/Captura6.3.png)
+![Captura 6.3](./evidenciasTarea/Apartado1GIT/Captura6.3.png)
 
-![Captura 6.6](../evidenciasTarea/Apartado1GIT/Captura6.6.png)
+![Captura 6.6](./evidenciasTarea/Apartado1GIT/Captura6.6.png)
 
 y también introducimos el contenido correspondiente en cada fichero
 
-![Contenido del fichero __init__.py](../evidenciasTarea/Apartado1GIT/Captura9.png)
+![Contenido del fichero __init__.py](./evidenciasTarea/Apartado1GIT/Captura9.png)
 
-![Contenido del fichero gui.py](../evidenciasTarea/Apartado1GIT/Captura10.png)
+![Contenido del fichero gui.py](./evidenciasTarea/Apartado1GIT/Captura10.png)
 
-![Contenido del fichero index.md](../evidenciasTarea/Apartado1GIT/Captura11.2.png)
+![Contenido del fichero index.md](./evidenciasTarea/Apartado1GIT/Captura11.2.png)
 
-![Contenido del fichero mkdocs.yml, encargado de generar la estructura de la página de documentación](../evidenciasTarea/Apartado1GIT/Captura18.2.2.png)
+![Contenido del fichero mkdocs.yml, encargado de generar la estructura de la página de documentación](./evidenciasTarea/Apartado1GIT/Captura18.2.2.png)
 
-![Contenido del fichero creacionDocumentación.md, encargado de generar automaticamente esta página de documentación](../evidenciasTarea/Apartado1GIT/Captura19.png)
+![Contenido del fichero creacionDocumentación.md, encargado de generar automaticamente esta página de documentación](./evidenciasTarea/Apartado1GIT/Captura19.png)
 
 **5. Hacemos un commit y pusheamos a la rama main**
 
