@@ -23,21 +23,30 @@ Se utilizó **Git** como sistema de control de versiones distribuido y **GitHub*
 Accedemos a nuestra terminal, si no tenemos instalado `Git` lo instalamos con el siguiente comando:
 
 ```console
+
 sudo apt install git
+
 ````
 
 cuando lo hayamos instalado correctamente, configuramos nuestro usuario de git con los datos de nuestra cuenta de Github ejecutando los siguientes comandos
 
 ```console
+
 git config --global user.name nombreUsuario
+
 ````
+
 ```console
+
 git config --global user.email emailUsuario
+
 ````
 una vez configurado el usuario, pasamos a clonar el repositorio en nuestro entorno local con el siguiente comando
 
 ```console
+
 git clone enlaceRepositorio
+
 ````
 
 ![Captura 3](./evidenciasTarea/Apartado1GIT/Captura3.png)
@@ -50,7 +59,9 @@ Una vez clonado el repositorio accedemos al mismo en el directorio local donde s
 
 **4. Comenzamos a crear el arbol de directorios y archivos requeridos**
 
+
 ```
+
 PPS-Unidad0-Tarea-Tu_nombre/  
 ├── calculator/  
 │   ├── __init__.py  
@@ -67,6 +78,7 @@ PPS-Unidad0-Tarea-Tu_nombre/
 └── .github/  
     └── workflows/  
         └── CreacionDocumentacion.yml  
+
 ```
 
 ![Captura 5](./evidenciasTarea/Apartado1GIT/Captura5.png)

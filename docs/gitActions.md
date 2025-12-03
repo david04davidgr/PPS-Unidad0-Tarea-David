@@ -20,3 +20,5 @@ Acto seguido al realizar el push hacia el repositorio se ejecutará automaticame
 Si hacemos click sobre el job accederemos al detalle del job completo, con todos los logs de todos los procesos del job, en caso de error, esto nos facilitaria el hecho de encontrar el error o fallo.
 
 ![Captura 22](./evidenciasTarea/Apartado2GitActions/Captura22.png)
+
+[Continuar con `Git Pages` ->](./gitPages.md)

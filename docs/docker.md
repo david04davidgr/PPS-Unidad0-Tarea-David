@@ -13,7 +13,7 @@ Desde la terminal lanzamos el siguiente comando para instalar docker.
 sudo apt install -y docker.io
 ```
 
-![Captura 26](./evidenciasTarea/Apartado2GitActions/Captura26.png)
+![Captura 26](./evidenciasTarea/Apartado3Dockers/Captura26.png)
 
 **2. Comprobamos que se ha instalado**
 
@@ -24,7 +24,7 @@ docker
 ```
 Y comprobamos que nos aparezca la documentación del comando, entonces, ya está listo para usarse.
 
-![Captura 27](./evidenciasTarea/Apartado2GitActions/Captura27.png)
+![Captura 27](./evidenciasTarea/Apartado3Dockers/Captura27.png)
 
 **3. Preparamos el directorio para montar el volumen con los datos del repositorio**
 
@@ -45,7 +45,7 @@ git checkout gh-pages
 
 Y ya tendremos en nuestro local el contenido de la rama `gh-pages` (realizamos de nuevo un git pull para actualizar la rama también).
 
-![Captura 29](./evidenciasTarea/Apartado2GitActions/Captura29.png)
+![Captura 29](./evidenciasTarea/Apartado3Dockers/Captura29.png)
 
 **4. Montamos el docker y comprobamos**
 
@@ -57,4 +57,6 @@ docker run -d --name PPSUnidad0-Tarea_DavidGarcia -p 8085:80 -v $(pwd):/usr/shar
 
 Lanzamos y buscamos en el navegador "**localhost:8085**", y nos aparecerá la web con la documentación creada por MkDocs.
 
-![Captura 31](./evidenciasTarea/Apartado2GitActions/Captura31.png)
+![Captura 31](./evidenciasTarea/Apartado3Dockers/Captura31.png)
+
+[Continuar con `Conclusión` ->](./Conclusion.md)
