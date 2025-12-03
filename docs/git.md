@@ -7,7 +7,9 @@ En este documento se explica el flujo de trabajo de Git para la realizacion de l
 Se utilizó **Git** como sistema de control de versiones distribuido y **GitHub** como plataforma de repositorio remoto.
 
 **Requisitos:**
+
 * Tener Git instalado localmente.
+
 * Una cuenta activa en GitHub.
 
 **Flujo de trabajo:**
@@ -26,7 +28,7 @@ Accedemos a nuestra terminal, si no tenemos instalado `Git` lo instalamos con el
 
 sudo apt install git
 
-````
+```
 
 cuando lo hayamos instalado correctamente, configuramos nuestro usuario de git con los datos de nuestra cuenta de Github ejecutando los siguientes comandos
 
@@ -34,20 +36,20 @@ cuando lo hayamos instalado correctamente, configuramos nuestro usuario de git c
 
 git config --global user.name nombreUsuario
 
-````
+```
 
 ```console
 
 git config --global user.email emailUsuario
 
-````
+```
 una vez configurado el usuario, pasamos a clonar el repositorio en nuestro entorno local con el siguiente comando
 
 ```console
 
 git clone enlaceRepositorio
 
-````
+```
 
 ![Captura 3](./evidenciasTarea/Apartado1GIT/Captura3.png)
 
